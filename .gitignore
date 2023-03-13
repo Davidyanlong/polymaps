@@ -1,0 +1,47 @@
+.DS_Store
+.nyc_output
+tmp
+/node_modules
+/packages/*/node_modules
+/packages/*/types
+/packages/*/doc
+/tests/node_modules
+/playground/node_modules
+types
+/packages/*/test/fixtures/**/node_modules
+/boilerplates/*/node_modules
+/packages/*/dist
+dist
+coverage
+.nyc_output
+AUTHORS
+stats.html
+tsconfig.tsbuildinfo
+public
+.cache
+.history
+tiles/
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.changelog
+
+#Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*code-workspace
+
+

@@ -51,21 +51,21 @@ function svg(id) {
 
 po.map()
     .container(svg("map"))
-    .center({lat: 39, lon: -96})
-    .zoom(4)
-    .add(po.geoJson().url("http://polymaps.appspot.com/state/{Z}/{X}/{Y}.json"));
-
-po.map()
-    .container(svg("alaska"))
-    .center({lat: 63, lon: -155})
+    .center({lat: 39, lon: 116.405285})
     .zoom(3)
-    .add(po.geoJson().url("http://polymaps.appspot.com/state/{Z}/{X}/{Y}.json"));
+    .add(po.geoJson().url("https://geo.datav.aliyun.com/areas_v3/bound/geojson?code=100000_full"));
 
-po.map()
-    .container(svg("hawaii"))
-    .center({lat: 20.5, lon: -157.5})
-    .zoom(6)
-    .add(po.geoJson().url("http://polymaps.appspot.com/state/{Z}/{X}/{Y}.json"));
+// po.map()
+//     .container(svg("alaska"))
+//     .center({lat: 63, lon: -155})
+//     .zoom(3)
+//     .add(po.geoJson().url("http://polymaps.appspot.com/state/{Z}/{X}/{Y}.json"));
+
+// po.map()
+//     .container(svg("hawaii"))
+//     .center({lat: 20.5, lon: -157.5})
+//     .zoom(6)
+//     .add(po.geoJson().url("http://polymaps.appspot.com/state/{Z}/{X}/{Y}.json"));
 
     </script>
   </body>
